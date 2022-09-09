@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * main -  asigns a random number to n
- * prints n
- * checks if n is positive or negative
- * Return: always  0  (success)
- */  
+ * main - assigns a random number to int n
+ * prints it and check if its positive or negative
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
@@ -15,10 +14,10 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
-		printf("%d is positive\n", n); 
-	else if (n == 0) 
-		printf("%d is zero\n", n); 
-	else if (n < 0) 
-		printf("%d is negative\n", n); 
+		printf("%d is positive\n", n);
+	else if (n == 0)
+		printf("%d is zero\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
 	return (0);
 }
