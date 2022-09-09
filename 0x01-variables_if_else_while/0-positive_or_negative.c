@@ -7,7 +7,7 @@
  * prints n
  * checks if n is positive or negative
  * Return: always  0  (success)
- */ 
+ */  
 int main(void)
 {
 	int n;
